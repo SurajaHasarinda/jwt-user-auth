@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use('/api/v1/auth', authRouter);
 
 app.get('/', (req, res) => {
-  res.send('SpritX 2025 project by ByteSquad');
+  res.send('JWT Authentication API');
 });
 
 // Error handling middleware should be the last middleware
